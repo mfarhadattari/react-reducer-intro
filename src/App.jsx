@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import ReducerCounter from "./components/ReducerCounter";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         React Reducer Intro
       </h1>
       <Counter />
+      <ReducerCounter />
     </div>
   );
 }
